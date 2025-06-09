@@ -231,8 +231,10 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center w-full gap-3 mt-5 backend-center">
             <a
-              href="#"
+              href="https://wa.me/08064393200"
               className="w-full border-[3px] border-[rgb(67,67,67)] rounded-3xl py-2 px-4 shadow-[0_0_10px_rgb(67,67,67)] hover:shadow-[0_0_15px_rgb(90,90,90)] transition-all p-[1px]  bg-gradient-to-l from-transparent via-[rgba(29,4,174,0.5)] to-transparent animate-[shine_3s_linear_infinite] bg-[length:200%_100%] active:scale-105 hover:scale-105 flex justify-center backend-center font-bold relative"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Let Connect
               <div className="w-[30px] h-[30px] rounded-full bg-white absolute right-1.5 bottom-1.5 flex items-center justify-center">
@@ -240,8 +242,10 @@ export default function Home() {
               </div>
             </a>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1wUoo-x3d37UlBt4Vx1qi1ObDtmhchzrh/view?usp=drive_link"
               className="w-full flex justify-center backend-center border-[3px] border-[rgb(67,67,67)] rounded-3xl py-2 px-4 shadow-[0_0_10px_rgb(67,67,67)] hover:shadow-[0_0_15px_rgb(90,90,90)] transition-all p-[1px] relative bg-gradient-to-r from-transparent via-[rgba(95,5,239,0.5)] to-transparent animate-[shine_6s_linear_infinite] bg-[length:200%_100%] active:105 hover:scale-105 font-bold"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               My Resume
             </a>
