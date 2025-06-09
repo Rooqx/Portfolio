@@ -231,7 +231,7 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center w-full gap-3 mt-5 backend-center">
             <a
-              href="https://wa.me/08064393200"
+              href="https://wa.me/2348064393200"
               className="w-full border-[3px] border-[rgb(67,67,67)] rounded-3xl py-2 px-4 shadow-[0_0_10px_rgb(67,67,67)] hover:shadow-[0_0_15px_rgb(90,90,90)] transition-all p-[1px]  bg-gradient-to-l from-transparent via-[rgba(29,4,174,0.5)] to-transparent animate-[shine_3s_linear_infinite] bg-[length:200%_100%] active:scale-105 hover:scale-105 flex justify-center backend-center font-bold relative"
               target="_blank"
               rel="noopener noreferrer"
@@ -468,11 +468,16 @@ export default function Home() {
             <img src={message} className="w-[16px]" alt="email" />
             ashfaga2005f@gmail.com
           </span>
-          <span className="flex items-center justify-center w-full gap-2 border border-[#a7a7a7] py-2 px-4 rounded-xl  decoration-none">
+          <a
+            className="flex items-center justify-center w-full gap-2 border border-[#a7a7a7] py-2 px-4 rounded-xl  decoration-none"
+            href="https://wa.me/2348064393200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {" "}
             <img src={whatsapp} className="w-[16px]" alt="" />
             WhatsApp
-          </span>
+          </a>
         </div>
       </section>
       <footer></footer>
